@@ -65,15 +65,15 @@ a {
 }
 
 .box_2 {
-	background-color: #998;
+	background-color: #777;
 }
 
 .box_3 {
-	background-color: #997;
+	background-color: #777;
 }
 
 .box_4 {
-	background-color: #996;
+	background-color: #999;
 }
 
 .box_size {
@@ -108,7 +108,7 @@ a {
 	width: 100%;
 	height: ;
 	padding-left: 100px;
-	background-color: darkgrey;
+	background-color: #444;
 }
 
 .hero-1 p {
@@ -145,14 +145,60 @@ a {
 	grid-template: 1fr / 1fr 1fr 1fr;
 	grid-gap: 50px;
 	background: #777;
+	padding: 60px;
+	padding-bottom: 300px;
+}
+
+.grid_2 h2 {
+	text-decoration: underline;
+	padding: 15px 0;
+}
+
+.grid_2 p {
+	color: #555;
+}
+
+.grid_2 small {
+	font-style: bold;
+	color: #444;
 }
 
 /* HERO 2 */
 .hero-2 {
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	padding-top: 100px;
+	color: #fff;
+	background: #333;
+	border-radius: 15px;
+}
+
+.hero2-move {
+	margin: 40px;
+}
+
+.hero-2 h2{
+	font-size: 3rem;
+	padding: 25px 0;
+}
+
+.hero-2 a {
+	font-size: 1rem;
+	color: lightgray;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+.box-12 {
 	width: 450px;
-	height: 300px;
-	margin-left: 50%;
-	background: rgb(138, 6, 6);
+	padding-left: 40px;
+}
+
+.hero-space {
+	margin: 50px;
 }
 
 .banner-article {
@@ -167,10 +213,12 @@ a {
 }
 
 .btn {
-	padding: 10px 15px;
-	color: blue;
-	background-color: #fff;
-	border-radius: 5px;
+	font-size: medium;
+	color: #333;
+	border: #fff solid 3px;
+	background: #fff;
+	padding: 10px;
+	border-radius: 3px;
 }
 
 .banner-green {
