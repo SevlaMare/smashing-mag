@@ -211,6 +211,9 @@ a {
 	justify-content: center;
 	width: auto;
 	padding: 40px 0;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
 }
 
 .btn {
@@ -254,6 +257,23 @@ a {
 /* ABOUT AUTHOR */
 .author {
 	margin-left: 15%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 5%;	
+}
+
+.author h2 {
+	color: gray;
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.author a {
+	font-size: 1rem;
+	text-decoration: underline;
+	color: #333;
+	margin-left: -1px;
 }
 
 /* GRID 3 */
@@ -262,6 +282,26 @@ a {
 	grid-template: 1fr 1fr 1fr / 1fr 1fr;
 	grid-gap: 100px;
 	background: lightgray;
+}
+
+.itemx {
+	margin: 80px 50px 60px 0px;
+}
+
+.itemx h2 {
+	margin: 15px 0;
+	font-size: 1.7rem;
+}
+
+.itemx a {
+	font-size: 0.8rem;
+	line-height: 30px;
+	text-decoration: underline;
+	margin-left: -1px;
+}
+
+.itemx a {
+	font-size: 1.2rem;
 }
 
 .banner-systems {
