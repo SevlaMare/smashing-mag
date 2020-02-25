@@ -16,6 +16,7 @@ nav {
 	background: #999;
 	padding-top: 60px;
 	padding-bottom: 20px;
+	font-weight: bold;
 }
 
 a {
@@ -39,9 +40,9 @@ a {
 .btn-nav {
 	font-size: medium;
 	color: #fff;
-	border: #fff solid 2px;
+	border: #fff solid 3px;
 	padding: 10px;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 /* MAIN */
@@ -221,14 +222,41 @@ a {
 	border-radius: 3px;
 }
 
+/* GREEN BANNER */
 .banner-green {
-	background: seagreen;
+	text-align: center;
+	background: #555;
+	height: 700px;
 }
 
+.banner-green h2 a {
+	font-size: 3rem;
+	text-decoration: underline;
+	color: #333;
+}
+
+.banner-green h3 {
+	font-size: 2.8rem;
+	color: #222;
+	margin-bottom: 30px;
+}
+
+.banner-green p {
+	line-height: 22px;
+	margin-bottom: 70px;
+}
+
+.banner-btn {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/* ABOUT AUTHOR */
 .author {
 	margin-left: 15%;
 }
 
+/* GRID 3 */
 .grid-3 {
 	display: grid;
 	grid-template: 1fr 1fr 1fr / 1fr 1fr;
