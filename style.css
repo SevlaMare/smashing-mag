@@ -305,9 +305,19 @@ a {
 }
 
 .banner-systems {
-	margin-left: 60px;
-	width: 600px;
+	height: 300px;
+	padding-left: 60px;
+	width: 100%;
 	background: lightgray;
+}
+
+.banner-systems p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.banner-systems h2 a {
+	font-size: xx-large;
 }
 
 .grid-4 {
@@ -317,6 +327,22 @@ a {
 	margin-left: 50px;
 }
 
+.grid-4 p {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+}
+
+.grid-4 h2 {
+	margin-bottom: 40px;
+}
+
+.grid-4 li {
+	margin-left: 30px;
+	line-height: 22px;
+	text-decoration: underline;
+}
+
 .flex {
 	display: flex;
 	margin: 50px;
@@ -324,4 +350,31 @@ a {
 
 footer {
 	background: lightgray;
+<<<<<<< HEAD
+=======
+	text-align: center;
+}
+
+footer p:first-child {
+	font-weight: bold;
+}
+
+footer p {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: .9em;
+}
+
+footer ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 35%;
+} 
+
+footer li {
+	margin-left: 20px;
+>>>>>>> f55d48ee5c915d07988f721b41f9b0c2e5dc0d2a
 }
