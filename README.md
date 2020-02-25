@@ -63,7 +63,7 @@ Just drag drop, the index.html on some web browser, like Google Crome.
 
 ## Authors
 
-👤 **Author 1**
+👤 **Paul Gureghian**
 
 - Github: [githubhandle](https://github.com/paulgureghian)
 - Twitter: [#twitterhandle](https://twitter.com/paulgureghian)
