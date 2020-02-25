@@ -6,9 +6,6 @@
 
 	/* TYPOGRAFY */
 	font-family: 'Spinnaker';
-	word-spacing: 1px;
-	font-weight: 600;
-	line-height: 22px;
 }
 
 /* NAVBAR */
@@ -26,6 +23,25 @@ a {
 	margin: 0 10px;
 	text-decoration: none;
 	color: #333;
+}
+
+.nav-links h2 {
+	color: #fff;
+	font-size: 2 rem;
+	background-color: #333;
+}
+
+.nav-links p {
+	font-size: 1.5 rem;
+	background-color: #777;
+}
+
+.btn-nav {
+	font-size: medium;
+	color: #fff;
+	border: #fff solid 2px;
+	padding: 10px;
+	border-radius: 3px;
 }
 
 /* MAIN */
@@ -60,20 +76,66 @@ a {
 	background-color: #996;
 }
 
+.box_size {
+	padding: 50px;
+	height: 400px;
+	width: 100%;
+}
 
+.box_size a {
+	margin-bottom: 60px;
+	font-size: x-large;
+	padding: 60px;
+}
+
+.box_size span {
+	margin-left: 30px;
+	font-size: medium;
+}
+
+.framework_links {
+	display: inline-block;
+}
+
+.framework_links a {
+	font-size: small;
+}
+
+/* Blue Banner */
 .hero-1 {
 	display: flex;
 	flex-direction: column;
-	width: 600px;
-	margin-left: 150px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	background: rgb(18, 18, 114);
+	width: 100%;
+	height: ;
+	padding-left: 100px;
+	background-color: darkgrey;
 }
 
-.hero-1 button {
-	width: 200px;
+.hero-1 p {
+	margin-bottom: 30px;
+	
+	padding-bottom: 1px;
+}
+
+.hero-1 li {
+	margin-bottom: 20px;
+}
+
+.hero-1 p a {
+	font-size: medium;
+}
+
+.hero-1-lnk  {
+	background-color: #fff;
+	border: #fff solid 5px;
+	border-radius: 3px;
 	padding: 10px;
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.hero-1 p:first-child {
+	margin-top: 40px;
 }
 
 /* GRID 2 */
