@@ -341,7 +341,7 @@ footer p {
   margin-bottom: 20px;
 }
 
-.hero-1 p {
+.hero-1 h4 {
   line-height: 30px;
   margin-bottom: 20px;
 }
@@ -408,7 +408,7 @@ footer li {
   text-decoration: underline;
 }
 
-.hero-1 p a {
+.hero-1 h4 a {
   font-size: medium;
   color: #fff;
   text-decoration: underline;
@@ -425,7 +425,7 @@ footer li {
   font-size: 1.5rem;
 }
 
-.hero-1 p:first-child {
+.hero-1 h4:first-child {
   margin-top: 40px;
 }
 
