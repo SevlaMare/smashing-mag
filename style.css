@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Spinnaker';
+  font-family: 'Spinnaker', 'Arial';
 }
 
 /* NAVBAR */
@@ -64,7 +64,6 @@ a {
 .grid_1 {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
-  /* width: 100%; */
 }
 
 .box_1 {
@@ -118,7 +117,6 @@ a {
 .hero-1 {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   padding-left: 100px;
   background-color: #444;
 }
@@ -144,7 +142,7 @@ a {
   text-decoration: underline;
 }
 
-.hero-1-lnk  {
+.hero-1-lnk {
   background-color: #fff;
   border: #fff solid 5px;
   border-radius: 8px;
@@ -206,7 +204,7 @@ a {
   margin: 40px;
 }
 
-.hero-2 h2{
+.hero-2 h2 {
   font-size: 3rem;
   padding: 25px 0;
 }
@@ -299,7 +297,7 @@ a {
   margin-left: 15%;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-right: 5%;	
+  margin-right: 5%;
 }
 
 .author h2 {
@@ -369,7 +367,7 @@ a {
 .grid-4 p {
   font-size: 0.7rem;
   margin-top: 50px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .grid-4 h2 {
@@ -385,6 +383,38 @@ a {
 .flex {
   display: flex;
   margin: 50px;
+}
+/* GRID 5 */
+.grid-5 {
+  display: grid;
+  margin-left: 0px;
+}
+
+.grid-5 p {
+  font-size: 0.7rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.grid-5 h2 {
+  margin-bottom: 40px;
+}
+
+.grid-5 li {
+  margin-left: 30px;
+  line-height: 36px;
+  text-decoration: underline;
+}
+
+#subscribe {
+  padding: 15px;
+  border-radius: 10px 0 0 10px;
+  margin-right: -45px;
+  border-right: solid 1px #333;
+}
+
+.btn-half {
+  border-radius: 0 10px 10px 0;
 }
 
 /* FOOTER */
@@ -410,7 +440,7 @@ footer ul {
   justify-content: center;
   align-items: center;
   margin-left: 30%;
-} 
+}
 
 footer li {
   margin-left: 20px;
