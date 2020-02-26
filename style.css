@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Spinnaker', 'Arial';
+  font-family: 'Spinnaker', Arial, Verdana;
 }
 
 /* NAVBAR */
@@ -218,36 +218,6 @@ a {
   border-radius: 10px;
 }
 
-/* GREEN BANNER */
-.banner-green {
-  text-align: center;
-  background: #555;
-  height: 700px;
-}
-
-.banner-green h2 a {
-  font-size: 3rem;
-  text-decoration: underline;
-  text-shadow: 1px 2px #777;
-  color: #333;
-}
-
-.banner-green h3 {
-  font-size: 2.8rem;
-  color: #222;
-  margin-bottom: 30px;
-}
-
-.banner-green p {
-  line-height: 26px;
-  margin-bottom: 70px;
-}
-
-.banner-btn {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 /* ABOUT AUTHOR */
 .author {
   margin-left: 15%;
@@ -403,7 +373,7 @@ footer li {
   margin-left: 20px;
 }
 
-.footer-links a{
+.footer-links a {
   text-decoration: underline;
   line-height: 40px;
   padding-right: 15px;
@@ -456,4 +426,34 @@ footer p a {
 
 .hero-1 p:first-child {
   margin-top: 40px;
+}
+
+/* GREEN BANNER */
+.banner-green {
+  text-align: center;
+  background: #555;
+  height: 700px;
+}
+
+.banner-green h2 a {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-shadow: 1px 2px #777;
+  color: #333;
+}
+
+.banner-green h3 {
+  font-size: 2.8rem;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.banner-green p {
+  line-height: 26px;
+  margin-bottom: 70px;
+}
+
+.banner-btn {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
