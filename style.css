@@ -445,3 +445,14 @@ footer ul {
 footer li {
   margin-left: 20px;
 }
+
+.footer-links a{
+  text-decoration: underline;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+footer p a {
+  text-decoration: underline;
+  font-size: 1rem;
+}
