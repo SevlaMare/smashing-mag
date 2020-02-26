@@ -4,7 +4,7 @@
 
 ![screenshot](./images/screenshot.png)
 
-The key concepts explored here are visual hierarchy, typography and design principles.
+The key concepts explored here are visual hierarchy, typography and contrasts.
 
 ## Requirements
 
