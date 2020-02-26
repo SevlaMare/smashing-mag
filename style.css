@@ -247,6 +247,12 @@ footer p a {
   margin-left: -1px;
 }
 
+.framework_links a {
+  font-size: small;
+  font-weight: bold;
+  margin-left: -50px;
+}
+
 .banner-systems {
   height: 300px;
   padding-left: 60px;
@@ -424,12 +430,6 @@ footer li {
 }
 
 /* GREEN BANNER */
-.framework_links a {
-  font-size: small;
-  font-weight: bold;
-  margin-left: -50px;
-}
-
 .banner-green {
   text-align: center;
   background: #555;
