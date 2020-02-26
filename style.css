@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Spinnaker', Arial, Verdana;
+  font-family: 'Spinnaker', Arial, sans-serif;
 }
 
 /* NAVBAR */
@@ -32,11 +32,6 @@ a {
   color: #fff;
   font-size: 1.6rem;
   margin-bottom: 10px;
-}
-
-.nav-links p {
-  font-size: 0.7rem;
-  font-style: oblique;
 }
 
 .btn-nav {
@@ -128,9 +123,7 @@ a {
   padding: 15px 0;
 }
 
-.grid_2 p {
-  color: #555;
-}
+
 
 .grid_2 small {
   font-weight: bold;
@@ -257,26 +250,16 @@ a {
 }
 
 .itemx a {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   line-height: 30px;
   text-decoration: underline;
   margin-left: -1px;
-}
-
-.itemx a {
-  font-size: 1.2rem;
 }
 
 .banner-systems {
   height: 300px;
   padding-left: 60px;
   background: lightgray;
-}
-
-.banner-systems p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 26px;
 }
 
 .banner-systems h2 a {
@@ -288,12 +271,6 @@ a {
   grid-template: 1fr / 1fr 1fr 1fr;
   grid-gap: 80px;
   margin-left: 50px;
-}
-
-.grid-4 p {
-  font-size: 0.7rem;
-  margin-top: 50px;
-  margin-bottom: 20px;
 }
 
 .grid-4 h2 {
@@ -315,12 +292,6 @@ a {
 .grid-5 {
   display: grid;
   margin-left: 0px;
-}
-
-.grid-5 p {
-  font-size: 0.7rem;
-  margin-top: 50px;
-  margin-bottom: 20px;
 }
 
 .grid-5 h2 {
@@ -358,6 +329,33 @@ footer p {
 
 footer p:first-child {
   font-weight: bold;
+}
+
+.grid-4 p {
+  font-size: 0.7rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.nav-links p {
+  font-size: 0.7rem;
+  font-style: oblique;
+}
+
+.grid_2 p {
+  color: #555;
+}
+
+.banner-systems p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+
+.grid-5 p {
+  font-size: .7rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 footer ul {
