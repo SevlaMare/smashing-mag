@@ -366,7 +366,6 @@ footer ul {
   width: 500px;
   justify-content: center;
   align-items: center;
-  margin-left: 30%;
 }
 
 footer li {
@@ -457,4 +456,9 @@ footer li {
 .banner-btn {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+.center-list {
+  display: flex;
+  justify-content: center;;
 }
